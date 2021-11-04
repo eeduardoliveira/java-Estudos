@@ -9,12 +9,13 @@ import java.util.Scanner;// Apropriando de uma classe da biblioetaca jdk
 
 /**
  *
+ * 
  * @author UEPA-LAB6-PC07
  */
 public class SomandoInteiros {
     
-    public static void main (String[] args){
-    //Cria um Scanner, para obter entrada de usuário
+    public static void main  (String[] args){
+           //Cria um Scanner, para obter entrada de usuário
     Scanner entrada = new Scanner (System.in);
     int num1;
     int num2;
