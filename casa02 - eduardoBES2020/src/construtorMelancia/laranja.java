@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package banana;
+package construtorMelancia;
+
+import banana.*;
 
 /**
  *
@@ -12,9 +14,11 @@ package banana;
 public class laranja { //setgetExercicio
    
     private String nomecurso;
-      
-
     
+    public laranja (String nome) {
+        nomecurso=nome;
+    }
+   
     public String getNomecurso() {
         return nomecurso;
     }
